@@ -3,7 +3,7 @@
 import car from "./../images/car.png"
 import Image from "next/image"
 
-export default function page() {
+export default function Page() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 via-pink-100 to-purple-100">
         <div className="bg-white p-8 rounded-2xl shadow-xl max-w-sm w-full transform transition duration-500 hover:scale-105">

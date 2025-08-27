@@ -2,9 +2,9 @@
 
 import { useState } from 'react'
 import Image from "next/image"
-import bmr from "./../images/bmr.png" // ให้คุณเปลี่ยนไปใช้รูปภาพ BMR หรือรูปที่เกี่ยวข้อง
+import bmr from "./../images/bmr.png" 
 
-export default function page() {
+export default function Page() {
   const [gender, setGender] = useState('male');
   const [age, setAge] = useState('');
   const [weight, setWeight] = useState('');
